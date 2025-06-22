@@ -1,0 +1,38 @@
+body{
+    background-color: #202124;
+    color: #e8e8e8;
+    max-width: 584px;
+    width: 90%;
+    width: 400px;
+}
+
+#Name_Google{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    position: relative;
+    left: 35px;
+}
+.adv_search{
+    display: flex;
+    background-color: #202124;
+    border-color: #e8e8e8;
+    padding: 5px;
+    width: 550px;
+    margin: 2px;
+    position: relative;
+    top: 160px;
+    left: 220px;
+}
+#GoBackFromImage{
+    position: absolute;
+    left: 1100px;
+    top: 30px;
+}
+#ADV{
+    position: relative;
+    left: 60px;
+    top: 35px;
+    font-size: 20px;
+    color: rgb(240, 118, 118);
+}

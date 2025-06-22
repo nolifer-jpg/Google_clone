@@ -1,0 +1,80 @@
+#name{
+    position: relative;
+    margin-top:-25px;
+    font-size: 95px;
+    font-family: sans-serif;
+}
+#cat{
+    position: absolute;
+    top: 15px;
+    right: 28px;
+}
+#image{
+    position: absolute;
+    top: 24.5px;
+    right: 230px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#adv{
+    position: absolute;
+    top: 25px;
+    right: 90px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  background-color: #202124;
+  color: #e8e8e8;
+}
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+#search{
+    background-color: #3C4043 ;
+    color: #e8eaed;
+    border: none;
+    border-radius: 1234px;
+    padding: 12px 40px 12px 45px;
+    font-size: 16px;
+}
+#search-icon {
+    position: absolute;
+    left: 15px;
+    top: 54%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    filter: invert(52%) sepia(8%) saturate(0%) hue-rotate(182deg) brightness(98%) contrast(93%);
+}
+#microphone{
+    position: absolute;
+    right: 20px;
+    top: 54%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 19px;
+    filter: invert(52%) sepia(8%) saturate(0%) hue-rotate(182deg) brightness(98%) contrast(93%);
+}
+
+.button{
+    background-color: #303134;
+    color: #e8eaed;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin: 5px;
+    cursor: pointer;  
+}
+
+
