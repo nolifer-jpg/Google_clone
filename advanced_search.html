@@ -9,13 +9,34 @@
 <body>
     <p id="Name_Google">Google</p>
     <p id="ADV">Advanced Search</p>
-    <a href="index.html" id="GoBackFromImage">Go Back to Google search</a>
-    <input type="form" class="adv_search">
-    <br>
-    <input type="form" class="adv_search">
-    <br>
-    <input type="form" class="adv_search">
-    <br>
-    <input type="form" class="adv_search">
+    <hr style="margin-bottom: 40px;"></hr>
+    <p id="find">Find pages with...</p>
+    <form action="https://google.com/search">
+        <div class="query-row">
+            <label class="query" style="position: relative; right: 27px;">all these words:</label>
+            <input type="text" class="adv_search" name="as_q">
+        </div>
+        <div class="query-row">
+            <label class="query" style="position: relative; right: 27px;">this exact word or phrase:</label>
+            <input type="text" class="adv_search" name ="as_epq">
+        </div>
+        <div class="query-row">
+            <label class="query" style="position: relative; right: 27px;">any of these words:</label>
+            <input type="text" class="adv_search" name="as_oq">
+        </div>
+        <div class="query-row">
+            <label class="query" style="position: relative; right: 27px;">none of these words:</label>
+            <input type="text" class="adv_search" name="as_eq">
+        </div>
+        <a href="index.html" id="GoBackFromImage">Go Back to Google search</a>
+        <div class="left_side">
+            <p style="font-size: 16px; position: relative ; bottom: 60px; right: 50px;">To do this in the search box.</p>
+            <p style="position: relative; bottom: 54px; right: 10px;">Type the important words: tri-colour rat terrier</p>
+            <p style="position: relative; bottom: 30px; right: 10px;">Put exact words in quotes: "rat terrier"</p>
+            <p style="position: relative; bottom: 7px; right: 10px;">Type OR between all the words you want: miniature OR standard</p>
+            <p style="position: relative; bottom:-16px; right: 10px;">Put a minus sign just before words that you don't want:<br> -rodent, -"Jack Russell"r</p>
+        </div>
+        <input type="submit" class="button" name="btnA" value="Advanced search">
+    </form>
 </body>
 </html>
